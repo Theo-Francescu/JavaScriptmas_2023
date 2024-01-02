@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(46, 13, 77);
+  }
+  
+  :root {
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+  }
+  
+  .rings {
+    margin: 10rem auto;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(104, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    align-self: center;
+  }
+  
+  .ring-1 {
+    
+    background-color: var(--black);
+  }
+  
+  .ring-2 {
+    background-color: var(--blue);
+  }
+  
+  .ring-3 {
+    background-color: var(--red);
+  }
+  
+  .bullseye {
+    background-color: var(--yellow);
+    width: 40%;
+    height: 40%;
+  }

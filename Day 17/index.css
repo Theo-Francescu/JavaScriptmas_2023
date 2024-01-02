@@ -1,0 +1,53 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-word: #5134ff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: 10px;
+}
+
+@keyframes rotateWords {
+  0% {
+    content: "coding";
+  }
+  35% {
+    content: "Scrimba";
+  }
+  55% {
+    content: "cats";
+  }
+  75% {
+    content: "singing";
+  }
+  90% {
+    content: "football";
+  }
+}
+
+.container::after {
+  content: "coding";
+  font-size: x-large;
+  margin-left: 3px;
+  padding: 0.75rem;
+  border-radius: 5px;
+  display: inline-block;
+  animation: rotateWords 10s infinite;
+  background-color: var(--bg-word);
+}

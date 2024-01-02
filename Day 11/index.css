@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+:root {
+  --white: #fff;
+  --red: #ff0002;
+}
+
+.flag {
+  margin: 15rem auto;
+  width: 250px;
+  height: 250px;
+  background-color: var(--red);
+  position: relative;
+}
+
+.cross {
+  background-color: var(--white);
+  position: absolute;
+}
+
+.cross1 {
+  width: 60px;
+  height: 180px;
+  top: 40px;
+  left: 100px;
+}
+
+.cross2 {
+  width: 180px;
+  height: 60px;
+  top: 100px;
+  left: 40px;
+}

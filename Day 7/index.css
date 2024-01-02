@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c0909;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wishlist-container {
+    background-color: #032b0b;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #e44d26;
+  }
+  
+  .wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-item {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .wishlist-item button {
+    background-color: #fff;
+    color: #e44d26;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  #newItem, .add-btn {
+    padding: 10px;
+  }
+  
+  .add-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 300px;
+    padding: 0.35em;
+    font-style: italic;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    width: 300px;
+    padding: 0.75em;
+    font-weight: bold;
+    background-color: rgb(3, 3, 71);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+  }

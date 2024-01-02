@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --search-border: #bbb;
+  --search-focus-border: #3a71ca;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10em auto;
+  width: 300px;
+  transition: width 0.3s;
+}
+
+.search-bar {
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid var(--search-border);
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+  border: 5px solid var(--search-focus-border);
+  width: 100%;
+}
+
+.search-bar:focus::placeholder {
+  color: transparent;
+}
